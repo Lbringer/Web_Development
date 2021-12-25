@@ -1,7 +1,12 @@
 body{
     padding: 0;
     margin: 0;
-    background-color:#403C9A ;
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
 }
 h1,p{
     font-family:'Noto Sans JP', sans-serif;
@@ -14,13 +19,13 @@ h1,p{
 p{
     font-size: large;
     font-family: lato,sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-style: italic;
     margin-bottom: 2vh;
 
 }
 form{
-    background-color: rgba(166, 79, 248, 0.5);
+    background-color: rgba(13, 21, 42, 0.8);
     border-radius: 4px;
     width:40%;
     height: auto;
@@ -40,7 +45,7 @@ input{
     border:0;
     border-radius: 4px;
     height: 5vh;
-    font-size: medium;
+    font-size: small;
     font-weight: 100;
     margin-bottom: 20px;
     margin-right: 10px;
@@ -54,7 +59,8 @@ label{
     margin-bottom: 10px;
     margin-right: 10px;
     font-weight: 300;
-    font-style: italic;
+    /* font-style: italic; */
+    font-size: 15px;
 }
 textarea{
     margin-bottom: 20px;
@@ -76,7 +82,7 @@ select{
     border:0;
     border-radius: 4px;
     height: 5vh;
-    font-size: medium;
+    font-size: small;
     font-weight: 100;
     margin-bottom: 20px;
     margin-right: 10px;
@@ -85,5 +91,6 @@ select{
 
 [type="checkbox"],[type="radio"]{
     margin-top:10px;
+    max-width:100%;
 
 }
