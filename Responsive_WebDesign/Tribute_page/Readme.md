@@ -1,2 +1,2 @@
-### Anime tribute page
-## Check it out:https://codepen.io/lbringer/full/zYEPdag
+# Anime tribute page
+### Check it out : https://codepen.io/lbringer/full/zYEPdag
