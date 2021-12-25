@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#403C9A ;
+}
+h1,p{
+    font-family:'Noto Sans JP', sans-serif;
+    font-size:10vh;
+    font-weight: 100;
+    color:#FFF4F0;
+    text-align: center;
+    margin-bottom: 0;
+}
+p{
+    font-size: large;
+    font-family: lato,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 2vh;
+
+}
+form{
+    background-color: rgba(166, 79, 248, 0.5);
+    border-radius: 4px;
+    width:40%;
+    height: auto;
+    margin: auto;
+    padding: 4vh;
+    font-size: large;
+    font-family: lato,sans-serif;
+    color: #FFF4F0;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    background-color: #FFF4F0;
+    border:0;
+    border-radius: 4px;
+    height: 5vh;
+    font-size: medium;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding-left:1vh ;
+}
+#radio,#checkbox{
+    flex-direction: row;
+    align-items: center;
+}
+label{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-weight: 300;
+    font-style: italic;
+}
+textarea{
+    margin-bottom: 20px;
+    font-family: lato;
+    border-radius:4px;
+}
+button{
+    background-color:#403C9A;
+    border: 0;
+    height: 7vh;
+    color:#FFF4F0;
+    font-family: lato;
+    font-weight:bold;
+    font-size: 2vh;
+    border-radius: 4px;
+}
+select{
+    background-color: #FFF4F0;
+    border:0;
+    border-radius: 4px;
+    height: 5vh;
+    font-size: medium;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding-left:1vh ;
+}
+
+[type="checkbox"],[type="radio"]{
+    margin-top:10px;
+
+}

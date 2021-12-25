@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">任意のアニメのあなたのレビュー</h1>
+    <p id="description">Your views on any particular anime</p>
+    <form id="survey-form" action="#">
+        <div>
+            <label id="name-label" for="name">Name</label>
+            <input type="text" id="name" placeholder="name" required>
+        </div>
+        <div>
+            <label id="email-label" for="email">Email</label>
+            <input type="email" id="email" placeholder="email" required>
+        </div>
+        <div>
+            <label id="number-label" for="number">Rating</label>
+            <input type="number" min="1" max="5" id="number" placeholder="rating">
+        </div>
+        <div>
+            <label id="genre" for="dropdown">Choose the genre</label>
+            <select name="pets" id="dropdown">
+                <option value="#">--Please choose an option--</option>
+                <option value="scifi">Sci-fi</option>
+                <option value="slice of life">Slice of life</option>
+                <option value="shonen">Shonen</option>
+            </select>
+        </div>
+        <div id="radio">
+            <label for="episodes">Number of episodes:</label>
+            <label for="12">12</label>
+            <input type="radio" name="ne" id="12" value="12">
+            <label for="24">24</label>
+            <input type="radio" name="ne" id="24" value="24">
+            <label for="24+">24+</label>
+            <input type="radio" name="ne" id="24+" value="24+">
+        </div>
+        <div id="checkbox">
+            <label for="overall">Did you like it overall?</label>
+            <label for="yes">Yes</label>
+            <input type="checkbox" id="yes" value="yes">
+            <label for="no">No</label>
+            <input type="checkbox" id="no" value="no">
+        </div>
+        <div>
+            <textarea name="review" id="review" cols="30" rows="10"
+                placeholder="What was the feeling you were left with?"></textarea>
+        </div>
+        <div>
+            <button id="submit">SUBMIT</button>
+        </div>
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
