@@ -4,7 +4,8 @@ body{
 }
 header{
     background-color: #ECE8E5;
-    height: 100vh;
+    min-height:100vh;
+    height: auto;
 }
 #title{
     font-family: Montserrat,monospace;
@@ -19,7 +20,8 @@ border-top:0.1px solid #282629;
 }
 #second-page{
     background-color: #282629;
-    height: 100vh;
+    min-height:100vh;
+    height: auto;
     padding-top: 25vh;
     margin-bottom: 0;
 }
@@ -46,7 +48,8 @@ font-size: medium;
 }
 #third-page{
     background-color: #ECE8E5;
-    height: 100vh;
+    min-height:100vh;
+    height: auto;
     padding-top: 15vh;
 }
 #tribute-info{
