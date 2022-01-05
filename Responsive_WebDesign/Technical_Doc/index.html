@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tech_Doc</title>
+</head>
+
+<body>
+    <main id="main-doc">
+        <nav id="navbar">
+            <header id="nav-header">HTML</header>
+            <a href="#So_what_is_HTML?" class="nav-link">So what is HTML?</a>
+            <a href="#Images" class="nav-link">Images</a>
+            <a href="#Marking_up_text" class="nav-link">Marking up text</a>
+            <a href="#Links" class="nav-link">Links</a>
+            <a href="#Conclusion" class="nav-link">Conclusion</a>
+        </nav>
+        <div id="content">
+            <section class="main-section" id="So_what_is_HTML?">
+                <header>So what is HTML?</header>
+                <div class="para">
+                    <p>HTML is a markup language that defines the structure of your content. HTML consists of a series
+                        of
+                        elements, which you use to enclose, or wrap, different parts of the content to make it appear a
+                        certain way, or act a certain way.</p>
+                    <p>The enclosing tags can make a word or image hyperlink to
+                        somewhere else, can italicize words, can make the font bigger or smaller, and so on. For
+                        example,
+                        take the following line of content: My cat is very grumpy</p>
+                </div>
+                <div class="code">
+                    <div class="code-data">"p tag"My cat is very grumpy"/p tag"</div>
+                </div>
+                <code></code>
+                <ul>
+                    <li>The opening tag: This consists of the name of the element (in this case, p), wrapped in opening
+                        and closing angle brackets. This states where the element begins or starts to take effect — in
+                        this case where the paragraph begins. </li>
+                    <li>The closing tag: This is the same as the opening tag, except that it includes a forward slash
+                        before the element name. This states where the element ends — in this case where the paragraph
+                        ends. Failing to add a closing tag is one of the standard beginner errors and can lead to
+                        strange results.</li>
+                </ul>
+            </section>
+            <section class="main-section" id="Images">
+                <header>Images</header>
+                <div class="code">
+                    <div class="code-data">img src="images/firefox-icon.png" alt="My test image"</div>
+                </div>
+                <div class="para">
+                    <p>As we said before, it embeds an image into our page in the position it appears. It does this via
+                        the src (source) attribute, which contains the path to our image file.</p>
+                    <p>We have also included an alt (alternative) attribute. In this attribute, you specify descriptive
+                        text for users who cannot see the image, possibly because of the following reasons:</p>
+                </div>
+                <code></code>
+                <ul>
+                    <li>They are visually impaired. Users with significant visual impairments often use tools called
+                        screen readers to read out the alt text to them. </li>
+                    <li>Something has gone wrong causing the image not to display. For example, try deliberately
+                        changing the path inside your src attribute to make it incorrect. If you save and reload the
+                        page, you should see something like this in place of the image:</li>
+                </ul>
+            </section>
+            <section class="main-section" id="Marking_up_text">
+                <header>Marking up text</header>
+                <div class="para">
+                    <p>Heading elements allow you to specify that certain parts of your content are headings — or
+                        subheadings. In the same way that a book has the main title, chapter titles, and subtitles, an
+                        HTML document can too. HTML contains 6 heading levels,
+                        h1–h6, although you'll commonly only use 3 to 4 at most:</p>
+                </div>
+                <div class="code">
+                    <div class="code-data"> h1 My main title /h1</div>
+                </div>
+                <div class="para">
+                    <p>As explained above, p elements are for containing paragraphs of text; you'll use these frequently
+                        when marking up regular text content:</p>
+                </div>
+                <div class="code">
+                    <div class="code-data"> p This is a single paragraph /p </div>
+                </div>
+                <code></code>
+                <ul>
+                    <li>Unordered lists are for lists where the order of the items doesn't matter, such as a shopping
+                        list. These are wrapped in a ul element.</li>
+                    <li>Ordered lists are for lists where the order of the items does matter, such as a recipe. These
+                        are wrapped in an ol element.</li>
+                </ul>
+            </section>
+            <section class="main-section" id="Links">
+                <header>Links</header>
+                <div class="para">
+                    <p>Links are very important — they are what makes the web a web! To add a link, we need to use a
+                        simple element — a — "a" being the short form for "anchor". To make text within your paragraph
+                        into a link, follow these steps:</p>
+                </div>
+                <ul>
+                    <li>Choose some text. We chose the text "Mozilla Manifesto".</li>
+                    <li>Wrap the text in an a element, as shown below:</li>
+                </ul>
+                <div class="code">
+                    <div class="code-data"> a Mozilla Manifesto /a /h1</div>
+                </div>
+                <code></code>
+                <div class="para">
+                    <p>You might get unexpected results if you omit the https:// or http:// part, called the protocol,
+                        at the beginning of the web address. After making a link, click it to make sure it is sending
+                        you where you wanted it to.</p>
+                </div>
+            </section>
+            <section class="main-section" id="Conclusion">
+                <header>Conclusion</header>
+                <div class="para">
+                    <p>HTML is a markup language that defines the structure of your content. HTML consists of a series
+                        of
+                        elements, which you use to enclose, or wrap, different parts of the content to make it appear a
+                        certain way, or act a certain way.</p>
+                    <p>The enclosing tags can make a word or image hyperlink to
+                        somewhere else, can italicize words, can make the font bigger or smaller, and so on. For
+                        example,
+                        take the following line of content: My cat is very grumpy</p>
+                </div>
+                <div class="code">
+                    <div class="code-data">"p tag"My cat is very grumpy"/p tag"</div>
+                </div>
+                <code></code>
+                <ul>
+                    <li>The opening tag: This consists of the name of the element (in this case, p), wrapped in opening
+                        and closing angle brackets. This states where the element begins or starts to take effect — in
+                        this case where the paragraph begins. </li>
+                    <li>The closing tag: This is the same as the opening tag, except that it includes a forward slash
+                        before the element name. This states where the element ends — in this case where the paragraph
+                        ends. Failing to add a closing tag is one of the standard beginner errors and can lead to
+                        strange results.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

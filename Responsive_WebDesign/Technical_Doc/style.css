@@ -1,0 +1,87 @@
+html{
+    font-size: 100px;
+}
+body{
+    margin:0;
+}
+nav{
+    min-width: 20vw;
+    background-color: black;
+    min-height: 100vh;
+    position: fixed;
+    top:0;
+    left:0;
+}
+#content{
+ min-width:74vw;
+ margin-left:23vw;
+ margin-right: 3vw;
+}
+#nav-header{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.30rem;
+    text-align: center;
+    margin-top:5vh;
+    margin-bottom:10vh;
+}
+.nav-link{
+color:white;
+font-family: 'Montserrat', sans-serif;
+font-size: 0.15rem;
+text-decoration: none;
+display: block;
+margin-left:0.3rem;
+margin-top:0.7rem;
+font-weight: 500;
+}
+header{
+    margin-top:4vh;
+    font-size: 0.45rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.para,ul{
+    margin-top: 3vh;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.17rem;
+    line-height: 0.35rem;
+}
+p{
+    margin-top:1vh;
+    margin-bottom: 1vh;
+}
+.code{
+    width:100%;
+    border:1px solid black;
+    height: 0.8rem;
+    box-sizing: border-box;
+    margin-top:3vh;
+    background-color: rgba(0,0,0,0.06);
+    border-radius: 0.10rem;
+    display: flex;
+    align-items: center;
+    padding-left: 3.7vh;
+}
+.code-data{
+    font-size: 0.15rem;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+}
+ul{
+padding: 0;
+}
+@media screen and (max-width:823px){
+    nav{
+position: relative;
+min-height: 50vh;
+    }
+    #nav-header{
+        margin-top: 0;
+    }
+    #content{
+       margin-left: 0.3rem; 
+    }
+    .code{
+        padding-left: 2vh;
+    }
+  }
