@@ -73,7 +73,7 @@ padding: 0;
 @media screen and (max-width:823px){
     nav{
 position: relative;
-min-height: 50vh;
+min-height: 75vh;
     }
     #nav-header{
         margin-top: 0;
@@ -83,8 +83,5 @@ min-height: 50vh;
     }
     .code{
         padding-left: 2vh;
-    }
-    .nav-link{
-        margin-bottom: 1vh;
     }
   }
