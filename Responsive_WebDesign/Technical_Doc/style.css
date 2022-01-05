@@ -79,9 +79,12 @@ min-height: 50vh;
         margin-top: 0;
     }
     #content{
-       margin-left: 0.3rem; 
+       margin-left: 0.1rem; 
     }
     .code{
         padding-left: 2vh;
+    }
+    .nav-link{
+        margin-bottom: 1vh;
     }
   }
