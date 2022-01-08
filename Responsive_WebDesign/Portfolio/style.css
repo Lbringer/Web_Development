@@ -1,3 +1,87 @@
-body{
-    background-color: black;
+html{
+    font-size: 100px;
 }
+body{
+    margin:0;
+}
+#navbar{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: rgba(11,1,25,0.4);
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 2;
+}
+.nav-link{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.17rem;
+    color:#CBD3E3;
+    text-decoration: none;
+    margin-right: 5vw;
+    font-weight: 400;
+}
+.section{
+    height: 100vh;
+    background-color: #26014E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image{
+    width: auto;
+   height: 100vh;
+}
+.headings,.sub{
+    margin:0;
+    font-size:0.7rem;
+    font-family: 'Raleway', sans-serif;
+    color:#CBD3E3;
+    font-weight: 100;
+}
+.sub{
+    font-size: 0.3rem;
+    font-weight: 400;
+    margin-top:5vh;
+}
+.arrow{
+    margin-left:2vh;
+    transform: scale(0.9);
+}
+.hoverr:hover{
+    transform: scale(1.2);
+    margin-left:2vh;
+}
+.hover:hover{
+    transform: scale(1.2);
+}
+.arrowsupdown{
+    display: flex;
+    flex-direction: column;
+}
+#codepen{
+    background-color:#D11820;
+}
+#yelp-camp{
+    background-color:#58079F;
+}
+#contact{
+    background-color: #F6AF12;
+}
+.contactme{
+    color:#0B0119;
+}
+.icons{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    transform: scale(0.6);
+}
+@media screen and (max-width:1200px) {
+  }
