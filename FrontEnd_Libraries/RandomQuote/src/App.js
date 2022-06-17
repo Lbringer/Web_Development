@@ -30,9 +30,15 @@ class App extends React.Component {
     this.req();
   }
   req() {
-    axios.get('https://api.quotable.io/random')
+    axios.get('https://type.fit/api/quotes')
       .then(r => {
-        this.setState({ quote: r.data.content, author: r.data.author })
+        let random2 = Math.floor(Math.random() * r.data.length);
+        let qObj = r.data[random2];
+        console.log(qObj);
+        if (qObj.author == null)
+          this.setState({ quote: qObj.text, author: "someone wise" })
+        else
+          this.setState({ quote: qObj.text, author: qObj.author })
       })
       .catch(e => console.log(e));
     let random = Math.floor(Math.random() * 12);
@@ -51,7 +57,7 @@ class App extends React.Component {
         <div id='text'>"{this.state.quote}"</div>
         <div id='author'>- {this.state.author}</div>
         <div className='butCon'>
-          <a href={"twitter.com/intent/tweet" + this.state.quote + this.state.author} id='tweet-quote' target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href={`https://twitter.com/intent/tweet?text=${this.state.quote}-${this.state.author}`} id='tweet-quote' target="_blank"><i className="fa fa-twitter"></i></a>
           <button id='new-quote' onClick={this.req}>New Quote</button>
         </div>
       </div>
