@@ -1,0 +1,37 @@
+body,
+.main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main {
+    min-height: fit-content;
+}
+
+#preview {
+    width: 40vw;
+    min-height: 30vw;
+    border: 1px solid black;
+}
+
+#editor {
+    width: 30vw;
+    height: 10vw;
+    margin-bottom: 5vh;
+}
+
+img {
+    width: 30vw;
+}
+
+p:last-of-type {
+    display: flex;
+    flex-direction: column;
+}
+
+#auth {
+    text-align: center;
+}
