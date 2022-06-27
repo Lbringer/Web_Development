@@ -67,6 +67,7 @@ class App extends React.Component {
       player.play();
     }
     else {
+      document.querySelector("#display").innerHTML = "Press or Click another key";
       player.load();
     }
     this.setState((state) => ({ play: !state.play }));
