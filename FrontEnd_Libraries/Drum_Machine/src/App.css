@@ -26,14 +26,20 @@ body {
 }
 
 #display {
-  width: 10vw;
+  width: 15vw;
   height: 5vw;
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .drum-pad {
   width: 25%;
   height: 25%;
+  margin-right: 4%;
+  margin-right: 4%;
   border: 1px solid black;
   background-color: white;
 }
